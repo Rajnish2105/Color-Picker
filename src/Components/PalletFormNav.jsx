@@ -9,7 +9,7 @@ import {
 import { AddToPhotos } from "@mui/icons-material";
 import { Link } from "react-router-dom";
 import { styled } from "@mui/material/styles";
-import PalletMetaForm from "./PalletMetaForm";
+import PalletMetaForm from "@/Components/PalletMetaForm";
 
 export default function PalletFormNav({
   pallets,

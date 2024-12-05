@@ -9,7 +9,7 @@ import {
   Logo,
   SliderContainer,
   SelectContainer,
-} from "../Styles/NavbarStyles";
+} from "@/Styles/NavbarStyles";
 
 export default function Navbar({
   level,

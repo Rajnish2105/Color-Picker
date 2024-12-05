@@ -1,5 +1,5 @@
 import { styled } from "@mui/system";
-import Sizes from "./Sizes";
+import Sizes from "@/Styles/Sizes";
 import chroma from "chroma-js";
 
 export const StyledColorBox = styled("div")({

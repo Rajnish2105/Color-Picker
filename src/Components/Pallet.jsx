@@ -1,8 +1,8 @@
 import { useState } from "react";
-import ColorBox from "./ColorBox";
-import Navbar from "./Navbar";
-import PalletFooter from "./PalletFooter";
-import { PalletContainer, ColorsContainer } from "../Styles/PalletStyles";
+import ColorBox from "@/Components/ColorBox";
+import Navbar from "@/Components/Navbar";
+import PalletFooter from "@/Components/PalletFooter";
+import { PalletContainer, ColorsContainer } from "@/Styles/PalletStyles";
 
 export default function Pallet({ pallet }) {
   const [level, setLevel] = useState(500);

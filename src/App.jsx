@@ -2,15 +2,15 @@ import { Routes, Route, useParams } from "react-router-dom";
 import { TransitionGroup, CSSTransition } from "react-transition-group";
 import { Link, useLocation } from "react-router-dom";
 
-import Pallet from "./Components/Pallet";
-import PalletList from "./Components/PalletList";
-import SingleColorPallet from "./Components/SingleColorPallet";
-import NewPalletForm from "./Components/NewPalletForm";
-import Page from "./Page";
+import Pallet from "@/Components/Pallet";
+import PalletList from "@/Components/PalletList";
+import SingleColorPallet from "@/Components/SingleColorPallet";
+import NewPalletForm from "@/Components/NewPalletForm";
+import Page from "@/Page";
 
 import { useEffect, useState } from "react";
-import SeedColors from "./utils/SeedColors";
-import { generatePalette } from "./utils/colorHelper";
+import SeedColors from "@/utils/SeedColors";
+import { generatePalette } from "@/utils/colorHelper";
 
 import "./App.css";
 

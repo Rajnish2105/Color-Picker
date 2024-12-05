@@ -1,12 +1,14 @@
 import { styled } from "@mui/system";
-import Sizes from "./Sizes";
-import bgimage from "../assets/bermuda-diamond.svg";
+import Sizes from "@/Styles/Sizes";
+import bgimage from "@/assets/bermuda-diamond.svg";
 import { TransitionGroup } from "react-transition-group";
 
 export const Root = styled("div")({
   backgroundImage: `url(${bgimage})`,
-  backgroundSize: "cover",
+  overflowY: "auto",
   backgroundPosition: "center",
+  backgroundSize: "cover",
+  backgroundRepeat: "repeat",
   height: "100%",
   paddingBottom: "2rem",
   minHeight: "95.5vh",
@@ -29,21 +31,33 @@ export const Container = styled("div")({
   },
 });
 
-export const Nav = styled("nav")({
+export const Nav = styled("nav")(({ theme }) => ({
   display: "flex",
-  width: "90%",
+  width: "95%",
   justifyContent: "space-between",
   alignItems: "center",
+  padding: "1rem 2rem",
   color: "white",
-  margin: "0 auto",
   "& a": {
     color: "white",
+    textDecoration: "none",
     fontWeight: "bold",
+    fontSize: "1rem",
+    transition: "all 0.3s ease",
+    padding: "0.5rem 1rem",
+    borderRadius: "25px",
+    "&:hover": {
+      background: "rgba(255, 255, 255, 0.1)",
+      transform: "translateY(-2px)",
+    },
   },
   "& h1": {
-    FontSize: "2rem",
+    fontSize: "2rem",
+    margin: 0,
+    fontWeight: "bold",
+    textShadow: "2px 2px 4px rgba(0,0,0,0.1)",
   },
-});
+}));
 
 export const Pallets = styled(TransitionGroup)({
   boxSizing: "border-box",

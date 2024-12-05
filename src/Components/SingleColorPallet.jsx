@@ -1,13 +1,13 @@
 import { useState } from "react";
 import { Link } from "react-router-dom";
-import Navbar from "./Navbar";
-import ColorBox from "./ColorBox";
-import PalletFooter from "./PalletFooter";
+import Navbar from "@/Components/Navbar";
+import ColorBox from "@/Components/ColorBox";
+import PalletFooter from "@/Components/PalletFooter";
 import {
   PalletContainer,
   ColorsContainer,
   GoBackButton,
-} from "../Styles/PalletStyles";
+} from "@/Styles/PalletStyles";
 
 export default function SingleColorPallet({ pallet, colorId }) {
   const [shades, setShades] = useState(gatherShades(pallet, colorId));

@@ -1,4 +1,4 @@
-import { PalletFooterContainer, Emoji } from "../Styles/PalletFooterStyles";
+import { PalletFooterContainer, Emoji } from "@/Styles/PalletFooterStyles";
 
 export default function PalletFooter({ pallet }) {
   return (

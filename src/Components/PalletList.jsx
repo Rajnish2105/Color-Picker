@@ -1,7 +1,7 @@
 import { useState } from "react";
 import { Link, useNavigate } from "react-router-dom";
 import MiniPallet from "./MiniPallet";
-import { Root, Container, Pallets, Nav } from "../Styles/PalletListStyles";
+import { Root, Container, Pallets, Nav } from "@/Styles/PalletListStyles";
 import { CSSTransition } from "react-transition-group";
 import { Check as CheckIcon, Close } from "@mui/icons-material";
 import {

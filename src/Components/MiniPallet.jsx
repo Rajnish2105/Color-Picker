@@ -6,7 +6,7 @@ import {
   Emoji,
   MiniColors,
   DeleteButton,
-} from "../Styles/MiniPalletStyles";
+} from "@/Styles/MiniPalletStyles";
 import DeleteIcon from "@mui/icons-material/Delete";
 
 function MiniPallet({ pallet, goToPallet, openDialog }) {

@@ -2,8 +2,6 @@ import { useState } from "react";
 import { Button } from "@mui/material";
 import { ChromePicker } from "react-color";
 import { useForm } from "react-hook-form";
-import { styled } from "@mui/system";
-import { FontDownloadRounded } from "@mui/icons-material";
 
 export default function ColorPickerForm({ setColors, colors, maxColors }) {
   const [currentColor, setCurrentColor] = useState("teal");
@@ -56,7 +54,7 @@ export default function ColorPickerForm({ setColors, colors, maxColors }) {
           default: {
             picker: {
               margin: "1.5rem 0",
-              width: '250px',
+              width: "250px",
               boxShadow: "0 4px 8px rgba(0, 0, 0, 0.9)",
               borderRadius: "10px",
             },
@@ -88,7 +86,7 @@ export default function ColorPickerForm({ setColors, colors, maxColors }) {
               borderColor: errors2.name ? "red" : "black",
               outline: "0",
               color: errors2.name ? "red" : "black",
-              paddingTop: '0.5rem'
+              paddingTop: "0.5rem",
             }}
             {...register2("name", { validate: validateName })}
           />

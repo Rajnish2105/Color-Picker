@@ -4,7 +4,7 @@ import {
   StyledColorBox,
   BoxContent,
   deleteIconStyles,
-} from "../Styles/DragableColorBoxStyles";
+} from "@/Styles/DragableColorBoxStyles";
 
 export default function DragableColorBox({ bgcolor, name, handleDelete }) {
   return (

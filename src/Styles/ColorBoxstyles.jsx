@@ -1,6 +1,6 @@
 import chroma from "chroma-js";
 import { styled } from "@mui/system";
-import Sizes from "./Sizes";
+import Sizes from "@/Styles/Sizes";
 
 export const ColorBoxContainer = styled("div")(
   ({ bgcolor, showFullPallet }) => ({

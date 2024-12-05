@@ -8,17 +8,16 @@ import {
   Button,
 } from "@mui/material";
 import { ChevronLeft as ChevronLeftIcon } from "@mui/icons-material";
-import DragableColorList from "./DragableColorList";
-import PalletFormNav from "./PalletFormNav";
-import ColorPickerForm from "./ColorPickerForm";
+import DragableColorList from "@/Components/DragableColorList";
+import PalletFormNav from "@/Components/PalletFormNav";
+import ColorPickerForm from "@/Components/ColorPickerForm";
 import {
   Main,
   DrawerHeader,
   Buttons,
   Container,
-} from "../Styles/NewPalletFormStyles";
-import SeedColors from "../utils/SeedColors";
-import { random } from "chroma-js";
+} from "@/Styles/NewPalletFormStyles";
+import SeedColors from "@/utils/SeedColors";
 
 const drawerWidth = 300;
 const maxColors = 20;

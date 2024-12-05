@@ -7,7 +7,7 @@ import {
   arrayMove,
 } from "@dnd-kit/sortable";
 import { CSS } from "@dnd-kit/utilities"; // For smoother transforms
-import DragableColorBox from "./DragableColorBox";
+import DragableColorBox from "@/Components/DragableColorBox";
 
 function DragableColorList({ colors, handleDelete, setColors }) {
   const handleDragEnd = (event) => {

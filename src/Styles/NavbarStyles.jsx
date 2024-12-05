@@ -1,5 +1,5 @@
 import { styled } from "@mui/system";
-import Sizes from "./Sizes";
+import Sizes from "@/Styles/Sizes";
 
 // Styled Components
 export const NavbarContainer = styled("header")({

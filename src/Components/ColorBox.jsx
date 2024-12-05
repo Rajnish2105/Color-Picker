@@ -10,7 +10,7 @@ import {
   CopyMsg,
   CopyText,
   BoxContent,
-} from "../Styles/ColorBoxstyles";
+} from "@/Styles/ColorBoxstyles";
 
 export default function ColorBox({ bgcolor, name, moreUrl, showFullPallet }) {
   const [copied, setCopied] = useState(false);

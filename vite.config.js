@@ -1,11 +1,17 @@
 import { defineConfig } from "vite";
 import react from "@vitejs/plugin-react";
+import path from "path";
 
 // https://vitejs.dev/config/
 export default defineConfig({
   plugins: [react()],
+  resolve: {
+    alias: {
+      "@": path.resolve(__dirname, "./src"), // Map '@' to the 'src' directory
+    },
+  },
   build: {
-    outDir: "dist", // Output directory for the build (default is 'dist')
-    assetsDir: "assets", // Directory for static assets (default is 'assets')
+    outDir: "dist",
+    assetsDir: "assets",
   },
 });

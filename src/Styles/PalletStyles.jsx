@@ -1,5 +1,5 @@
 import { styled } from "@mui/system";
-import Sizes from "./Sizes";
+import Sizes from "@/Styles/Sizes";
 // Define styled components using MUI's styled
 export const PalletContainer = styled("div")(({ theme }) => ({
   height: "100vh",
