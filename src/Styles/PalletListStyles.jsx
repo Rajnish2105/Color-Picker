@@ -1,10 +1,9 @@
 import { styled } from "@mui/system";
 import Sizes from "@/Styles/Sizes";
-import bgimage from "@/assets/bermuda-diamond.svg";
 import { TransitionGroup } from "react-transition-group";
 
 export const Root = styled("div")({
-  backgroundImage: `url(${bgimage})`,
+  backgroundImage: `url(/bermuda-diamond.svg)`,
   overflowY: "auto",
   backgroundPosition: "center",
   backgroundSize: "cover",
